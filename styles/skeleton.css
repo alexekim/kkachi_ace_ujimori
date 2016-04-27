@@ -401,15 +401,91 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
 */
 
-
+/*IPHONE: 375width x 667height*/
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+  h2{
+    font-size: 100px;
+  }
+
+
+  h1{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 100px;
+    color: rgb(255, 161, 0);
+  }
+
+  .drimg{
+    display:block;
+    margin: auto;
+    border: 2px solid orange;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+  }
+
+  .drname{
+    margin-top: 2px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 72px;
+    color: rgb(124, 180, 195);
+  }
+
+  .jobtitle {
+    margin-top: -26px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 54px;
+    color: rgb(124, 180, 195);
+  }
+
+
+  input{
+    border-color: rgb(180, 180, 180);
+    border-radius: 7px;
+    color: rgb(124, 180, 195);
+  }
+
+  .date {
+    border-color: rgb(180, 180, 180);
+    border-radius: 7px;
+    color: rgb(124, 180, 195);
+    font-size: 60px;
+    width: 540px;
+  }
+
+  .available{
+    border-color: rgb(180, 180, 180);
+    border-radius: 7px;
+    color: rgb(124, 180, 195);
+    font-size: 45px;
+    height: 60px;
+  }
+
+  #bookit{
+    display:block;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    font-size: 60px;
+    color: rgb(255, 161, 0);
+
+  }
+
+
+
+
+}
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {}
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+
+}
 
 /* Larger than desktop */
 @media (min-width: 1000px) {}
