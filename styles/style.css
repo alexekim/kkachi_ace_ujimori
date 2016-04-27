@@ -15,7 +15,7 @@ img{
   text-align: center;
   font-family: Arial, sans-serif;
   font-size: 24px;
-  color: rgb(91, 136, 148);
+  color: rgb(124, 180, 195);
 }
 
 .jobtitle {
@@ -23,6 +23,37 @@ img{
   text-align: center;
   font-family: Arial, sans-serif;
   font-size: 18px;
-  color: rgb(91, 136, 148);
+  color: rgb(124, 180, 195);
+}
+
+
+input{
+  border-color: rgb(180, 180, 180);
+  border-radius: 7px;
+  color: rgb(124, 180, 195);
+}
+
+.date {
+  border-color: rgb(180, 180, 180);
+  border-radius: 7px;
+  color: rgb(124, 180, 195);
+  font-size: 20px;
+  width: 180px;
+}
+
+.available{
+  border-color: rgb(180, 180, 180);
+  border-radius: 7px;
+  color: rgb(124, 180, 195);
+  font-size: 15px;
+  height: 20px;
+}
+
+#bookit{
+  display:block;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: rgb(255, 161, 0);
 
 }
