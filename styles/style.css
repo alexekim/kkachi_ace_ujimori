@@ -1,0 +1,28 @@
+h1{
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  color: rgb(255, 161, 0);
+}
+
+img{
+  display:block;
+  margin: auto;
+}
+
+.drname{
+  margin-top: 24px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: rgb(91, 136, 148);
+}
+
+.jobtitle {
+  margin-top: -26px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: rgb(91, 136, 148);
+
+}
