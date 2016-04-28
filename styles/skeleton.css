@@ -179,7 +179,7 @@ input[type="button"] {
   font-weight: 600;
   line-height: 38px;
   letter-spacing: .1rem;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
@@ -412,10 +412,10 @@ there.
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
-  h1{
+  .head{
   text-align: center;
   font-family: Arial, sans-serif;
-  font-size: 28px;
+  font-size: 48px;
   color: rgb(255, 161, 0);
 }
 
@@ -446,7 +446,7 @@ there.
 }
 
 
-input{
+input {
   border-color: rgb(180, 180, 180);
   border-radius: 7px;
   color: rgb(124, 180, 195);
@@ -458,6 +458,7 @@ input{
   color: rgb(124, 180, 195);
   font-size: 20px;
   width: 180px;
+  margin: 0 auto;
 }
 
 .available{
@@ -466,6 +467,14 @@ input{
   color: rgb(124, 180, 195);
   font-size: 15px;
   height: 20px;
+  margin: 0 auto;
+
+}
+
+
+.reasons{
+  margin: 0 auto;
+
 }
 
 #bookit{

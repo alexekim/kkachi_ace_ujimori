@@ -1,2 +1,4 @@
 document.getElementById("bookit").onclick = function () {
-       location.href = "/";
+  console.log('hey hey')
+  location.href = "hey.html";
+     }
